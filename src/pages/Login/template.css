@@ -1,0 +1,58 @@
+.login{
+  flex:1;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 400px;
+}
+.login h2{
+  font-size: 16px;
+  font-weight: normal;
+}
+.login input{
+  margin-top: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  border: 1px solid green;
+  border-radius: 3px;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #323232;
+}
+.username span,
+.password span{
+  margin-top: 3px;
+  display: block;
+  font-size: 12px;
+  color: orange;
+}
+.username,
+.password{
+  text-align: left;
+}
+.password{
+  margin-top: 30px;
+}
+.btn{
+  margin-top: 30px;
+  text-align: left;
+}
+.btn button{
+  border: 1px solid green;
+  padding: 0 5px;
+  height: 26px;
+  border-radius: 3px;
+  color: green;
+  background-color: #fff;
+  cursor: pointer;
+}
+.qh{
+  margin-top: 30px;
+  font-size: 12px;
+  color: #323232;
+}
+.qh a{
+  text-decoration: underline;
+  cursor: pointer;
+  color: green;
+}

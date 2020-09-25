@@ -1,0 +1,62 @@
+*{
+  text-decoration: none;
+}
+#index{
+  position: relative;
+  flex: 1;
+}
+.list{
+  padding: 0 80px;
+}
+.list ul{
+  padding-top: 50px;
+}
+.list li{
+  display: flex;
+  max-height: 95px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.list li .h-icon a img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.list li .h-icon a h4{
+  color: #323232;
+  max-width: 60px;
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list li .b-txt{
+  margin-left: 20px;
+  flex: 1;
+}
+.list li .b-txt h2{
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.list li .b-txt h2 span{
+  margin-left: 10px;
+  font-size: 12px;
+  color: #ddd;
+}
+.list li .b-txt p{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  line-height: 16px;
+}
+.abso-bot{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

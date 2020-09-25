@@ -1,0 +1,64 @@
+#detail{
+  flex: 1;
+}
+.yonghu{
+  display: flex;
+  margin: 0 80px;
+  padding: 20px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+.yonghu .img img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.yonghu .txt{
+  margin-left: 10px;
+}
+.yonghu .txt h2{
+  font-size: 16px;
+  color: #323232;
+  line-height: 2;
+  text-align: left;
+}
+.yonghu .txt h4{
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+  font-weight: normal;
+  text-align: left;
+}
+.yonghu .txt h4 a{
+  color: green;
+}
+.zhengwen{
+  margin: 40px 150px 0;
+}
+.zhengwen .desc{
+  padding-left: 10px;
+  border-left: 4px solid green;
+}
+.zhengwen .desc p{
+  font-size: 15px;
+  color: rgb(153,153,153);
+  text-align: left;
+  font-weight: bold;
+}
+.zhengwen .list{
+  margin-top: 50px;
+}
+.zhengwen .list li{
+  text-align: left;
+  margin-bottom: 30px;
+}
+.zhengwen .list li .tit{
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(153,153,153);
+  padding-bottom: 20px;
+}
+.zhengwen .list li p{
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(153,153,153);
+}
